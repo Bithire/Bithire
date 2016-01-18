@@ -459,8 +459,11 @@ void HelpMessageBox::showOrPrint()
 }
 
 void SetBlackThemeQSS(QApplication& app)
+
 {
-    app.setStyleSheet("QWidget        { background: rgb(0, 0, 110); color: rgb(255,255,255); }"
+
+    app.setStyleSheet("QWidget        { background: rgb(67, 106, 160); color: rgb(255,255,255); }"
+
                       "QFrame         { border: none; }"
                       "QComboBox      { color: rgb(0,0,0); }"
                       "QComboBox QAbstractItemView::item { color: rgb(0,0,0); }"
@@ -471,7 +474,7 @@ void SetBlackThemeQSS(QApplication& app)
                       "QPlainTextEdit { background: rgb(255,255,255); color: rgb(255,255,255); }"
                       "QMenuBar       { background: rgb(255,255,255); color: rgb(0,0,0); }"
                       "QMenu          { background: rgb(0, 102, 255); color: rgb(255,255,255); }"
-                      "QMenu::item:selected { background-color: rgb(0, 0, 110); }"
+                      "QMenu::item:selected { background-color: rgb(67, 106, 160); }"
                       "QLabel { color: rgb(255,255,255); }"
                       "QScrollBar     { color: rgb(255,255,255); }"
                       "QCheckBox      { color: rgb(255,255,255); }"
@@ -480,15 +483,16 @@ void SetBlackThemeQSS(QApplication& app)
                       "QTabBar::tab:selected  { background: rgb(173, 173, 133); }"
                       "QTabBar::tab:!selected { background: rgb(255,255,255); margin-top: 2px; }"
                       "QTabWidget::pane { border: 1px solid rgb(255,255,255); }"
-                      "QToolButton    { background: rgb(255,255,255); color: rgb(0,0,0); border: none; border-left-color: rgb(0, 0, 110); border-left-style: solid; border-left-width: 4px; margin-top: 8px; margin-bottom: 8px; }"
+                      "QToolButton    { background: rgb(255,255,255); color: rgb(0,0,0); border: none; border-left-color: rgb(67, 106, 160); border-left-style: solid; border-left-width: 4px; margin-top: 8px; margin-bottom: 8px; }"
                       "QToolButton:checked { color: rgb(255,255,255); border: none; border-left-color: rgb(20,133,204); border-left-style: solid; border-left-width: 4px; }"
                       "QProgressBar   { color: rgb(149,148,148); border-color: rgb(255,255,255); border-width: 3px; border-style: solid; }"
                       "QProgressBar::chunk { background: rgb(255,255,255); }"
                       "QTreeView::item { background: rgb(255,255,255); color: rgb(0,0,0); }"
-                      "QTreeView::item:selected { background-color: rgb(0, 0, 110); }"
+                      "QTreeView::item:selected { background-color: rgb(67, 106, 160); }"
                       "QTableView     { background: rgb(255,255,255); color: rgb(0,0,0); gridline-color: rgb(255,255,255); }"
                       "QHeaderView::section { background: rgb(0, 102, 255); color: rgb(0,0,0); }"
                       "QToolBar       { background: rgb(255,255,255); border: none; }");
+
 }
 
 } // namespace GUIUtil
